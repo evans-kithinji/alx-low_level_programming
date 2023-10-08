@@ -7,3 +7,4 @@
 5. Numbers. prints all single digit numbers of base 10 starting from 0, followed by a new line
 6. Numberz. prints all single digit numbers of base 10 starting from 0, followed by a new line
 7. Smile in the mirror. prints the lowercase alphabet in reverse, followed by a new line
+8. Hexadecimal. prints all the numbers of base 16 in lowercase, followed by a new line
