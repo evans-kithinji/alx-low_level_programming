@@ -5,3 +5,4 @@
 3. alphABET. prints the alphabet in lowercase, and then in uppercase, followed by a new line
 4. When I was having that alphabet soup, I never thought that it would pay off. prints the alphabet in lowercase, followed by a new line
 5. Numbers. prints all single digit numbers of base 10 starting from 0, followed by a new line
+6. Numberz. prints all single digit numbers of base 10 starting from 0, followed by a new line
