@@ -8,3 +8,4 @@
 7. There are only 3 colors, 10 digits, and 7 notes; its what we do with them thats important. a function that prints the last digit of a number. Returns the value of the last digit
 7. There are only 3 colors, 10 digits, and 7 notes; its what we do with them thats important. a function that prints the last digit of a number. Returns the value of the last digit.
 8. Im federal agent Jack Bauer, and today is the longest day of my life. A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+9. Learn your times table. a function that prints the 9 times table, starting with 0. Prototype: void times_table(void);
