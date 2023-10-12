@@ -10,3 +10,4 @@
 8. Im federal agent Jack Bauer, and today is the longest day of my life. A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 9. Learn your times table. a function that prints the 9 times table, starting with 0. Prototype: void times_table(void);
 10. a + b. A function that adds two integers and returns the result. Prototype: int add(int, int);
+11. 98 Battery Street, the OG. A function that prints all natural numbers from n to 98, followed by a new line. Prototype: void print_to_98(int n);
