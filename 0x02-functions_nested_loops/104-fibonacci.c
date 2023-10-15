@@ -11,15 +11,15 @@
  */
 int main(void)
 {
-int a = 1, b = 2, next;
+unsigned long a = 1, b = 2, next;
 int count = 0;
 
-printf("%d, %d", a, b);
+printf("%lu, %lu", a, b);
 
 while (count < 96)  /* We've already printed the first two numbers */
 {
 next = a + b;
-printf(", %d", next);
+printf(", %lu", next);
 a = b;
 b = next;
 count++;
