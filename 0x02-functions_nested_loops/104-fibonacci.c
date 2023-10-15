@@ -10,12 +10,12 @@
 void printFibonacci() {
 int a = 1, b = 2, next, count = 0;
 
-// Print the first two Fibonacci numbers
+
 printf("%d, %d, ", a, b);
 count += 2;
 
 while (count < 98) {
-next = (a + b) % 1000000;  // Use modular arithmetic to prevent overflow
+next = (a + b) % 1000000;
 a = b;
 b = next;
 
