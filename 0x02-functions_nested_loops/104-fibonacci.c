@@ -1,32 +1,36 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for the program.
- *
- * This program calculates and prints the first 98 Fibonacci numbers,
- * starting with 1 and 2. The numbers are separated by a comma and a space, 
- * followed by a new line.
- *
- * Return: Always 0.
+ * This program finds and prints the first 98 Fibonacci numbers, 
+ * starting with 1 and 2,
+ * separated by a comma and space, followed by a new line.
+ * It adheres to the specified constraints.
  */
 
-int main(void)
-{
-int a = 1, b = 2, next;
-int count = 0;
+void printFibonacci() {
+int a = 1, b = 2, next, count = 0;
 
-printf("%d, %d", a, b);
+// Print the first two Fibonacci numbers
+printf("%d, %d, ", a, b);
+count += 2;
 
-while (count < 96)  /* We've already printed the first two numbers */
-{
-next = a + b;
-printf(", %d", next);
+while (count < 98) {
+next = (a + b) % 1000000;  // Use modular arithmetic to prevent overflow
 a = b;
 b = next;
-count++;
+
+// Print the next Fibonacci number
+if (count < 97) {
+printf("%d, ", next);
+} else {
+printf("%d\n", next); // Print a new line after the last number
 }
 
-printf("\n");
+count++;
+}
+}
 
-return (0);
+int main() {
+printFibonacci();
+return 0;
 }
