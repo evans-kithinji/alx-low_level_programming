@@ -19,11 +19,10 @@ next = (a + b) % 1000000;
 a = b;
 b = next;
 
-// Print the next Fibonacci number
 if (count < 97) {
 printf("%d, ", next);
 } else {
-printf("%d\n", next); // Print a new line after the last number
+printf("%d\n", next);
 }
 
 count++;
