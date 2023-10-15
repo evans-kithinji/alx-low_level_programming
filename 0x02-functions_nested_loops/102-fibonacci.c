@@ -8,16 +8,15 @@
  *
  * Return: Always 0.
  */
-
 int main() {
-long long int a = 1, b = 2, next;
+long a = 1, b = 2, next;
 int count;
 
-printf("%lld, %lld", a, b);
+printf("%ld, %ld", a, b);
 
 for (count = 3; count <= 50; count++) {
 next = a + b;
-printf(", %lld", next);
+printf(", %ld", next);
 a = b;
 b = next;
 }
