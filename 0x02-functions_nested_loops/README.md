@@ -11,3 +11,4 @@
 9. Learn your times table. a function that prints the 9 times table, starting with 0. Prototype: void times_table(void);
 10. a + b. A function that adds two integers and returns the result. Prototype: int add(int, int);
 11. 98 Battery Street, the OG. A function that prints all natural numbers from n to 98, followed by a new line. Prototype: void print_to_98(int n);
+12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself. A function that prints the n times table, starting with 0. Prototype: void print_times_table(int n);
