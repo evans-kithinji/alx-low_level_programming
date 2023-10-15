@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 int limit = 1024;
 int sum = 0;
@@ -16,5 +16,5 @@ sum += i;
 
 printf("%d\n", sum);
 
-return 0;
+return (0);
 }
