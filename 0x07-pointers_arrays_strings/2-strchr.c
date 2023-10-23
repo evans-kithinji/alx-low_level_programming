@@ -7,7 +7,7 @@
  *
  * This function searches for the first occurrence of the character 'c'
  * in the string 's'.
- * If the character is found, it returns a pointer to that location in
+ * Return: If the character is found, it returns a pointer to that location in
  * the string.
  * If the character is not found, it returns NULL.
 */
