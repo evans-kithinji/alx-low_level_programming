@@ -16,7 +16,7 @@ return (is_prime_help(n, 2));
 }
 
 /**
- * is_prime_helper - Recursive helper function to check for primality.
+ * is_prime_help - Recursive helper function to check for primality.
  * @n: The integer to check for primality.
  * @divisor: The current divisor to test.
  *
