@@ -75,5 +75,5 @@ for (i = 0; i < len; i++)
 original_dest[i] = src[i];
 original_dest[i] = '\0';
 
-return (original_dest);;
+return (original_dest);
 }
